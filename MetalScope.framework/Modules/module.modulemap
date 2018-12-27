@@ -1,0 +1,11 @@
+framework module MetalScope {
+  umbrella header "MetalScope.h"
+
+  export *
+  module * { export * }
+}
+
+module MetalScope.Swift {
+    header "MetalScope-Swift.h"
+    requires objc
+}
