@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5325D22D21D6B9D300229F6A /* Package iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5325D22E21D6B9D300229F6A /* Build configuration list for PBXAggregateTarget "Package iOS" */;
+			buildPhases = (
+				5325D23121D6B9F200229F6A /* Make Universal Library */,
+			);
+			dependencies = (
+			);
+			name = "Package iOS";
+			productName = "Package iOS";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5325D28B21D6BC5D00229F6A /* ViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24121D6BC5800229F6A /* ViewerModel.swift */; };
+		5325D28C21D6BC5D00229F6A /* Eye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24221D6BC5800229F6A /* Eye.swift */; };
+		5325D28D21D6BC5D00229F6A /* PlayerItemRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24321D6BC5800229F6A /* PlayerItemRenderer.swift */; };
+		5325D28E21D6BC5D00229F6A /* StereoParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24421D6BC5800229F6A /* StereoParameters.swift */; };
+		5325D28F21D6BC5D00229F6A /* StereoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24521D6BC5800229F6A /* StereoScene.swift */; };
+		5325D29021D6BC5D00229F6A /* CategoryBitMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24621D6BC5800229F6A /* CategoryBitMask.swift */; };
+		5325D29121D6BC5D00229F6A /* OrientationIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24721D6BC5800229F6A /* OrientationIndicator.swift */; };
+		5325D29221D6BC5D00229F6A /* PlayerRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24821D6BC5800229F6A /* PlayerRenderer.swift */; };
+		5325D29321D6BC5D00229F6A /* MediaFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24921D6BC5800229F6A /* MediaFormat.swift */; };
+		5325D29421D6BC5D00229F6A /* Rotation+CoreMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24A21D6BC5800229F6A /* Rotation+CoreMotion.swift */; };
+		5325D29521D6BC5D00229F6A /* StereoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24B21D6BC5800229F6A /* StereoView.swift */; };
+		5325D29621D6BC5D00229F6A /* InterfaceOrientationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24C21D6BC5800229F6A /* InterfaceOrientationProvider.swift */; };
+		5325D29721D6BC5D00229F6A /* OrientationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24D21D6BC5800229F6A /* OrientationNode.swift */; };
+		5325D29821D6BC5D00229F6A /* CVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24E21D6BC5800229F6A /* CVError.swift */; };
+		5325D29921D6BC5D00229F6A /* VideoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D24F21D6BC5800229F6A /* VideoScene.swift */; };
+		5325D29A21D6BC5D00229F6A /* ViewerParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25021D6BC5800229F6A /* ViewerParameters.swift */; };
+		5325D29B21D6BC5D00229F6A /* StereoCameraNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25121D6BC5800229F6A /* StereoCameraNode.swift */; };
+		5325D29C21D6BC5D00229F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5325D25221D6BC5800229F6A /* Assets.xcassets */; };
+		5325D29D21D6BC5D00229F6A /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25321D6BC5800229F6A /* ScreenModel.swift */; };
+		5325D29E21D6BC5D00229F6A /* SceneLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25421D6BC5800229F6A /* SceneLoadable.swift */; };
+		5325D29F21D6BC5D00229F6A /* StereoRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25521D6BC5800229F6A /* StereoRenderer.swift */; };
+		5325D2A021D6BC5D00229F6A /* PanoramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25621D6BC5800229F6A /* PanoramaView.swift */; };
+		5325D2A121D6BC5D00229F6A /* MetalScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 5325D25721D6BC5800229F6A /* MetalScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5325D2A221D6BC5D00229F6A /* VideoLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25821D6BC5800229F6A /* VideoLoadable.swift */; };
+		5325D2A321D6BC5D00229F6A /* ImageLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25921D6BC5800229F6A /* ImageLoadable.swift */; };
+		5325D2A421D6BC5D00229F6A /* InterfaceOrientationUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25A21D6BC5800229F6A /* InterfaceOrientationUpdater.swift */; };
+		5325D2A521D6BC5D00229F6A /* Rotation+SceneKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25B21D6BC5800229F6A /* Rotation+SceneKit.swift */; };
+		5325D2A621D6BC5D00229F6A /* ImageScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25C21D6BC5800229F6A /* ImageScene.swift */; };
+		5325D2A721D6BC5D00229F6A /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25D21D6BC5800229F6A /* Rotation.swift */; };
+		5325D2A821D6BC5D00229F6A /* RenderLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25E21D6BC5800229F6A /* RenderLoop.swift */; };
+		5325D2A921D6BC5D00229F6A /* ScreenParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D25F21D6BC5800229F6A /* ScreenParameters.swift */; };
+		5325D2AA21D6BC5D00229F6A /* PanoramaPanGestureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D26021D6BC5800229F6A /* PanoramaPanGestureManager.swift */; };
+		5325D2AB21D6BC5D00229F6A /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D26121D6BC5800229F6A /* Deprecations+Removals.swift */; };
+		5325D2AC21D6BC5D00229F6A /* DeviceOrientationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D26221D6BC5800229F6A /* DeviceOrientationProvider.swift */; };
+		5325D2AD21D6BC5D00229F6A /* KeyValueObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D26321D6BC5800229F6A /* KeyValueObserver.swift */; };
+		5325D2AE21D6BC5D00229F6A /* StereoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D26421D6BC5800229F6A /* StereoViewController.swift */; };
+		5325D2B021D6BC5D00229F6A /* SphericalMediaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325D26621D6BC5800229F6A /* SphericalMediaScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5325D22421D6B7B400229F6A /* MetalScope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalScope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5325D22821D6B7B500229F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5325D24121D6BC5800229F6A /* ViewerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerModel.swift; sourceTree = "<group>"; };
+		5325D24221D6BC5800229F6A /* Eye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eye.swift; sourceTree = "<group>"; };
+		5325D24321D6BC5800229F6A /* PlayerItemRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerItemRenderer.swift; sourceTree = "<group>"; };
+		5325D24421D6BC5800229F6A /* StereoParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StereoParameters.swift; sourceTree = "<group>"; };
+		5325D24521D6BC5800229F6A /* StereoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StereoScene.swift; sourceTree = "<group>"; };
+		5325D24621D6BC5800229F6A /* CategoryBitMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryBitMask.swift; sourceTree = "<group>"; };
+		5325D24721D6BC5800229F6A /* OrientationIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationIndicator.swift; sourceTree = "<group>"; };
+		5325D24821D6BC5800229F6A /* PlayerRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerRenderer.swift; sourceTree = "<group>"; };
+		5325D24921D6BC5800229F6A /* MediaFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaFormat.swift; sourceTree = "<group>"; };
+		5325D24A21D6BC5800229F6A /* Rotation+CoreMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rotation+CoreMotion.swift"; sourceTree = "<group>"; };
+		5325D24B21D6BC5800229F6A /* StereoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StereoView.swift; sourceTree = "<group>"; };
+		5325D24C21D6BC5800229F6A /* InterfaceOrientationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceOrientationProvider.swift; sourceTree = "<group>"; };
+		5325D24D21D6BC5800229F6A /* OrientationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationNode.swift; sourceTree = "<group>"; };
+		5325D24E21D6BC5800229F6A /* CVError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVError.swift; sourceTree = "<group>"; };
+		5325D24F21D6BC5800229F6A /* VideoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScene.swift; sourceTree = "<group>"; };
+		5325D25021D6BC5800229F6A /* ViewerParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerParameters.swift; sourceTree = "<group>"; };
+		5325D25121D6BC5800229F6A /* StereoCameraNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StereoCameraNode.swift; sourceTree = "<group>"; };
+		5325D25221D6BC5800229F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5325D25321D6BC5800229F6A /* ScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
+		5325D25421D6BC5800229F6A /* SceneLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLoadable.swift; sourceTree = "<group>"; };
+		5325D25521D6BC5800229F6A /* StereoRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StereoRenderer.swift; sourceTree = "<group>"; };
+		5325D25621D6BC5800229F6A /* PanoramaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanoramaView.swift; sourceTree = "<group>"; };
+		5325D25721D6BC5800229F6A /* MetalScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalScope.h; sourceTree = "<group>"; };
+		5325D25821D6BC5800229F6A /* VideoLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLoadable.swift; sourceTree = "<group>"; };
+		5325D25921D6BC5800229F6A /* ImageLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoadable.swift; sourceTree = "<group>"; };
+		5325D25A21D6BC5800229F6A /* InterfaceOrientationUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceOrientationUpdater.swift; sourceTree = "<group>"; };
+		5325D25B21D6BC5800229F6A /* Rotation+SceneKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rotation+SceneKit.swift"; sourceTree = "<group>"; };
+		5325D25C21D6BC5800229F6A /* ImageScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScene.swift; sourceTree = "<group>"; };
+		5325D25D21D6BC5800229F6A /* Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
+		5325D25E21D6BC5800229F6A /* RenderLoop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderLoop.swift; sourceTree = "<group>"; };
+		5325D25F21D6BC5800229F6A /* ScreenParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenParameters.swift; sourceTree = "<group>"; };
+		5325D26021D6BC5800229F6A /* PanoramaPanGestureManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanoramaPanGestureManager.swift; sourceTree = "<group>"; };
+		5325D26121D6BC5800229F6A /* Deprecations+Removals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Deprecations+Removals.swift"; sourceTree = "<group>"; };
+		5325D26221D6BC5800229F6A /* DeviceOrientationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceOrientationProvider.swift; sourceTree = "<group>"; };
+		5325D26321D6BC5800229F6A /* KeyValueObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueObserver.swift; sourceTree = "<group>"; };
+		5325D26421D6BC5800229F6A /* StereoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StereoViewController.swift; sourceTree = "<group>"; };
+		5325D26621D6BC5800229F6A /* SphericalMediaScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SphericalMediaScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5325D22021D6B7B400229F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5325D21821D6B76700229F6A = {
+			isa = PBXGroup;
+			children = (
+				5325D24021D6BC5800229F6A /* Sources */,
+				5325D22621D6B7B500229F6A /* MetalScope iOS */,
+				5325D22521D6B7B400229F6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5325D22521D6B7B400229F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5325D22421D6B7B400229F6A /* MetalScope.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5325D22621D6B7B500229F6A /* MetalScope iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5325D22821D6B7B500229F6A /* Info.plist */,
+			);
+			path = "MetalScope iOS";
+			sourceTree = "<group>";
+		};
+		5325D24021D6BC5800229F6A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5325D24121D6BC5800229F6A /* ViewerModel.swift */,
+				5325D24221D6BC5800229F6A /* Eye.swift */,
+				5325D24321D6BC5800229F6A /* PlayerItemRenderer.swift */,
+				5325D24421D6BC5800229F6A /* StereoParameters.swift */,
+				5325D24521D6BC5800229F6A /* StereoScene.swift */,
+				5325D24621D6BC5800229F6A /* CategoryBitMask.swift */,
+				5325D24721D6BC5800229F6A /* OrientationIndicator.swift */,
+				5325D24821D6BC5800229F6A /* PlayerRenderer.swift */,
+				5325D24921D6BC5800229F6A /* MediaFormat.swift */,
+				5325D24A21D6BC5800229F6A /* Rotation+CoreMotion.swift */,
+				5325D24B21D6BC5800229F6A /* StereoView.swift */,
+				5325D24C21D6BC5800229F6A /* InterfaceOrientationProvider.swift */,
+				5325D24D21D6BC5800229F6A /* OrientationNode.swift */,
+				5325D24E21D6BC5800229F6A /* CVError.swift */,
+				5325D24F21D6BC5800229F6A /* VideoScene.swift */,
+				5325D25021D6BC5800229F6A /* ViewerParameters.swift */,
+				5325D25121D6BC5800229F6A /* StereoCameraNode.swift */,
+				5325D25221D6BC5800229F6A /* Assets.xcassets */,
+				5325D25321D6BC5800229F6A /* ScreenModel.swift */,
+				5325D25421D6BC5800229F6A /* SceneLoadable.swift */,
+				5325D25521D6BC5800229F6A /* StereoRenderer.swift */,
+				5325D25621D6BC5800229F6A /* PanoramaView.swift */,
+				5325D25721D6BC5800229F6A /* MetalScope.h */,
+				5325D25821D6BC5800229F6A /* VideoLoadable.swift */,
+				5325D25921D6BC5800229F6A /* ImageLoadable.swift */,
+				5325D25A21D6BC5800229F6A /* InterfaceOrientationUpdater.swift */,
+				5325D25B21D6BC5800229F6A /* Rotation+SceneKit.swift */,
+				5325D25C21D6BC5800229F6A /* ImageScene.swift */,
+				5325D25D21D6BC5800229F6A /* Rotation.swift */,
+				5325D25E21D6BC5800229F6A /* RenderLoop.swift */,
+				5325D25F21D6BC5800229F6A /* ScreenParameters.swift */,
+				5325D26021D6BC5800229F6A /* PanoramaPanGestureManager.swift */,
+				5325D26121D6BC5800229F6A /* Deprecations+Removals.swift */,
+				5325D26221D6BC5800229F6A /* DeviceOrientationProvider.swift */,
+				5325D26321D6BC5800229F6A /* KeyValueObserver.swift */,
+				5325D26421D6BC5800229F6A /* StereoViewController.swift */,
+				5325D26621D6BC5800229F6A /* SphericalMediaScene.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5325D22121D6B7B400229F6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5325D2A121D6BC5D00229F6A /* MetalScope.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5325D22321D6B7B400229F6A /* MetalScope iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5325D22A21D6B7B500229F6A /* Build configuration list for PBXNativeTarget "MetalScope iOS" */;
+			buildPhases = (
+				5325D21F21D6B7B400229F6A /* Sources */,
+				5325D22021D6B7B400229F6A /* Frameworks */,
+				5325D22121D6B7B400229F6A /* Headers */,
+				5325D22221D6B7B400229F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetalScope iOS";
+			productName = "MetalScope iOS";
+			productReference = 5325D22421D6B7B400229F6A /* MetalScope.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5325D21921D6B76700229F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					5325D22321D6B7B400229F6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					5325D22D21D6B9D300229F6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 5325D21C21D6B76700229F6A /* Build configuration list for PBXProject "MetalScope" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5325D21821D6B76700229F6A;
+			productRefGroup = 5325D22521D6B7B400229F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5325D22321D6B7B400229F6A /* MetalScope iOS */,
+				5325D22D21D6B9D300229F6A /* Package iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5325D22221D6B7B400229F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5325D29C21D6BC5D00229F6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5325D23121D6B9F200229F6A /* Make Universal Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Make Universal Library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# Step 1: Define Macros\nRELEASE_TYPE=\"\"\n\n# Step 2: Define OS and directories\nUNIVERSAL_TARGET=\"iOS\"\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal-${UNIVERSAL_TARGET}\nUNIVERSAL_FRAMEWORKFOLDER=${PROJECT_NAME}${RELEASE_TYPE}/${UNIVERSAL_TARGET}\nDEVICE_OS=\"iphoneos\"\nDEVICE_SIMULATOR=\"iphonesimulator\"\n\n# Step 3: Make sure the output directories exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\nmkdir -p \"${UNIVERSAL_FRAMEWORKFOLDER}\"\n\n# Step 4: Build Device and Simulator versions\n# See: https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html\nxcodebuild BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\" -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk ${DEVICE_OS}  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\" -target \"${PROJECT_NAME} ${UNIVERSAL_TARGET}\" VALID_ARCHS=\"x86_64 i386\" -configuration ${CONFIGURATION} -sdk ${DEVICE_SIMULATOR} ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 5: Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 6: Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_SIMULATOR}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 7: Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_SIMULATOR}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-${DEVICE_OS}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 8: Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# Step 9: Convenience step to open the project's directory in Finder\n# open \"${UNIVERSAL_FRAMEWORKFOLDER}/\"\n\n# Step 10: Testing\n# open \"${UNIVERSAL_OUTPUTFOLDER}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5325D21F21D6B7B400229F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5325D2A221D6BC5D00229F6A /* VideoLoadable.swift in Sources */,
+				5325D2AE21D6BC5D00229F6A /* StereoViewController.swift in Sources */,
+				5325D29021D6BC5D00229F6A /* CategoryBitMask.swift in Sources */,
+				5325D29F21D6BC5D00229F6A /* StereoRenderer.swift in Sources */,
+				5325D2A421D6BC5D00229F6A /* InterfaceOrientationUpdater.swift in Sources */,
+				5325D2AA21D6BC5D00229F6A /* PanoramaPanGestureManager.swift in Sources */,
+				5325D29821D6BC5D00229F6A /* CVError.swift in Sources */,
+				5325D2AB21D6BC5D00229F6A /* Deprecations+Removals.swift in Sources */,
+				5325D2A921D6BC5D00229F6A /* ScreenParameters.swift in Sources */,
+				5325D2A321D6BC5D00229F6A /* ImageLoadable.swift in Sources */,
+				5325D2AC21D6BC5D00229F6A /* DeviceOrientationProvider.swift in Sources */,
+				5325D29121D6BC5D00229F6A /* OrientationIndicator.swift in Sources */,
+				5325D2A821D6BC5D00229F6A /* RenderLoop.swift in Sources */,
+				5325D2B021D6BC5D00229F6A /* SphericalMediaScene.swift in Sources */,
+				5325D28D21D6BC5D00229F6A /* PlayerItemRenderer.swift in Sources */,
+				5325D2A521D6BC5D00229F6A /* Rotation+SceneKit.swift in Sources */,
+				5325D28B21D6BC5D00229F6A /* ViewerModel.swift in Sources */,
+				5325D2A721D6BC5D00229F6A /* Rotation.swift in Sources */,
+				5325D28F21D6BC5D00229F6A /* StereoScene.swift in Sources */,
+				5325D2A021D6BC5D00229F6A /* PanoramaView.swift in Sources */,
+				5325D29321D6BC5D00229F6A /* MediaFormat.swift in Sources */,
+				5325D28C21D6BC5D00229F6A /* Eye.swift in Sources */,
+				5325D2A621D6BC5D00229F6A /* ImageScene.swift in Sources */,
+				5325D29A21D6BC5D00229F6A /* ViewerParameters.swift in Sources */,
+				5325D28E21D6BC5D00229F6A /* StereoParameters.swift in Sources */,
+				5325D2AD21D6BC5D00229F6A /* KeyValueObserver.swift in Sources */,
+				5325D29621D6BC5D00229F6A /* InterfaceOrientationProvider.swift in Sources */,
+				5325D29E21D6BC5D00229F6A /* SceneLoadable.swift in Sources */,
+				5325D29721D6BC5D00229F6A /* OrientationNode.swift in Sources */,
+				5325D29521D6BC5D00229F6A /* StereoView.swift in Sources */,
+				5325D29921D6BC5D00229F6A /* VideoScene.swift in Sources */,
+				5325D29421D6BC5D00229F6A /* Rotation+CoreMotion.swift in Sources */,
+				5325D29D21D6BC5D00229F6A /* ScreenModel.swift in Sources */,
+				5325D29B21D6BC5D00229F6A /* StereoCameraNode.swift in Sources */,
+				5325D29221D6BC5D00229F6A /* PlayerRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5325D21D21D6B76700229F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-fembed-bitcode-marker";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		5325D21E21D6B76700229F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		5325D22B21D6B7B500229F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2P58N6UJZ2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MetalScope iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = Unearth.MetalScope;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5325D22C21D6B7B500229F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2P58N6UJZ2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MetalScope iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = Unearth.MetalScope;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5325D22F21D6B9D300229F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P58N6UJZ2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		5325D23021D6B9D300229F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P58N6UJZ2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5325D21C21D6B76700229F6A /* Build configuration list for PBXProject "MetalScope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5325D21D21D6B76700229F6A /* Debug */,
+				5325D21E21D6B76700229F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5325D22A21D6B7B500229F6A /* Build configuration list for PBXNativeTarget "MetalScope iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5325D22B21D6B7B500229F6A /* Debug */,
+				5325D22C21D6B7B500229F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5325D22E21D6B9D300229F6A /* Build configuration list for PBXAggregateTarget "Package iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5325D22F21D6B9D300229F6A /* Debug */,
+				5325D23021D6B9D300229F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5325D21921D6B76700229F6A /* Project object */;
+}
