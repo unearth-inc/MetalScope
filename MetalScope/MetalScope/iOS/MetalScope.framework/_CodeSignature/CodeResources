@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		acT92RMAkS7WzcC8ZeHeNvyStOQ=
+		jz9koUa2SHaMmTU/haeCVKtU98w=
 		</data>
 		<key>Headers/MetalScope-Swift.h</key>
 		<data>
-		R4kW77un4ocnQTlGvB67puNOeK8=
+		hu+GccIHyNr7L121HYbbtSnbS24=
 		</data>
 		<key>Headers/MetalScope.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		V9UlK04hUNlAWziar+iMDHwOrFA=
+		XFv7UkcEg9JbUuF7sLfhvoKyCrQ=
 		</data>
 		<key>Modules/MetalScope.swiftmodule/arm.swiftdoc</key>
 		<data>
-		erG4Gqdo6nhnAbe36Eo45nnmfi4=
+		J25bqzK5npWydVs8ZmFaSamclmw=
 		</data>
 		<key>Modules/MetalScope.swiftmodule/arm.swiftmodule</key>
 		<data>
-		4nnwZunWMcoOayT+I7WByUc07NY=
+		ldIAV5GrUDyhxST34DFKj6YlhMo=
 		</data>
 		<key>Modules/MetalScope.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		G+1RZOJK/zu+1r0A4yn5/oDSbHU=
+		Z707/txSRzpDXxbdzfdN3lqzYCo=
 		</data>
 		<key>Modules/MetalScope.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		/vFiez65REPareRSfNfHeR1wZgc=
+		WM0mYU+5xbtc398I7nfxC434gB0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,22 +47,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			acT92RMAkS7WzcC8ZeHeNvyStOQ=
+			jz9koUa2SHaMmTU/haeCVKtU98w=
 			</data>
 			<key>hash2</key>
 			<data>
-			NX5RjyIBeRE7CaNn4KVHNVvg+vEHsFkzMs88srPychc=
+			W17w9JGwpOZ9Y97/wNPiZgg24B293BsQh7WwoOOVy+c=
 			</data>
 		</dict>
 		<key>Headers/MetalScope-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R4kW77un4ocnQTlGvB67puNOeK8=
+			hu+GccIHyNr7L121HYbbtSnbS24=
 			</data>
 			<key>hash2</key>
 			<data>
-			hU73qF2PpKRSomOrtgiRjuC/zJ8w6FcZtsjl4qbf3T0=
+			SnQFBoQqgiDOt+tQDBEug08wdsa4X4cOGv4SEL+4rFA=
 			</data>
 		</dict>
 		<key>Headers/MetalScope.h</key>
@@ -80,44 +80,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			erG4Gqdo6nhnAbe36Eo45nnmfi4=
+			J25bqzK5npWydVs8ZmFaSamclmw=
 			</data>
 			<key>hash2</key>
 			<data>
-			EBhPCc7grKiwd1gy1u4lBoW605Boao3v1yAp/YJd2YE=
+			gY8R5JIdGuDW9jlvbO5rkrSUeAvRhQj9Q6wPHyDw70c=
 			</data>
 		</dict>
 		<key>Modules/MetalScope.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4nnwZunWMcoOayT+I7WByUc07NY=
+			ldIAV5GrUDyhxST34DFKj6YlhMo=
 			</data>
 			<key>hash2</key>
 			<data>
-			h+XicVMPVQPcYBEtASB4YRDisU08dHRgrXS5+mNzye8=
+			n8frwDcaJdAYp78meUMZ+zVYw3IEkB4SN2hRnTuRQ7s=
 			</data>
 		</dict>
 		<key>Modules/MetalScope.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G+1RZOJK/zu+1r0A4yn5/oDSbHU=
+			Z707/txSRzpDXxbdzfdN3lqzYCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			DIHa7j0tay4lBm9cktRztxzR6TArOiahJfhnZMLR6/8=
+			2qsOS4XkpbbuKiMqlD1eQmCxnoepNOEztYePjpelll4=
 			</data>
 		</dict>
 		<key>Modules/MetalScope.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/vFiez65REPareRSfNfHeR1wZgc=
+			WM0mYU+5xbtc398I7nfxC434gB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			NcfhCff/uMzqWrpGiyfe0tWbA4gJexmH2oCcdO+P/b4=
+			ZIO+mMcfvL0G+h8jC06mCKDoULG2iv9sXAJmdIcbcSI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -134,7 +134,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -165,24 +165,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -218,13 +206,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
