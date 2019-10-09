@@ -268,7 +268,7 @@ open class StereoViewController: UIViewController, SceneLoadable {
             handler(sender)
         } else if sender.allTargets.count == 1 {
             let url = URL(string: "https://support.google.com/cardboard/answer/6383058")!
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
         }
     }
 
@@ -374,3 +374,8 @@ extension StereoViewController: ImageLoadable {}
 #if (arch(arm) || arch(arm64)) && os(iOS)
 extension StereoViewController: VideoLoadable {}
 #endif
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value)})
+}
